@@ -4,8 +4,8 @@ interface NumberOfBeingsProps {
 }
 const NumberOfBeings : React.FC <NumberOfBeingsProps>= ({ numberOfBeings, onChangeNumberOfBeings }) => (
     <>
-        <label htmlFor='numberOfBeings'>Number of Beings</label>
-        <input id='numberOfBeings' type='text' value={numberOfBeings} onChange={onChangeNumberOfBeings} />
+       <p> <label htmlFor='numberOfBeings'>Number of Beings</label>
+        <input id='numberOfBeings' type='text' value={numberOfBeings} onChange={onChangeNumberOfBeings} /></p>
     </> );
 
 export default NumberOfBeings;
