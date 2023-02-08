@@ -4,7 +4,7 @@ interface PlanetNameProps {
 }
 const PlanetName : React.FC <PlanetNameProps>= ({ planetName, onChangePlanetName }) => (
     <>
-        <p><label htmlFor='planetName'>Planet Name</label>
+        <p><label htmlFor='planetName'>Planet Name  </label>
         <input id='planetName' type='text' value={planetName} onChange={onChangePlanetName} /></p>
     </> );
 
